@@ -18,8 +18,7 @@ class Login extends Component
     ];
 
     //This mounts the default credentials for the admin. Remove this section if you want to make it public.
-    public function mount()
-    {
+    public function mount(){
         if (auth()->user()) {
             return redirect()->intended('/dashboard');
         }
@@ -29,8 +28,8 @@ class Login extends Component
         ]);
     }
 
-    public function login()
-    {
+    public function login(){
+
         $credentials = $this->validate();
         if (auth()->attempt(['email' => $this->email, 'password' => $this->password], $this->remember_me)) {
             $user = User::where(['email' => $this->email])->first();
@@ -41,8 +40,7 @@ class Login extends Component
         }
     }
 
-    public function render()
-    {
+    public function render(){
         return view('livewire.auth.login');
     }
 }
