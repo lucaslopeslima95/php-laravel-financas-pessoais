@@ -22,10 +22,6 @@ class Login extends Component
         if (auth()->user()) {
             return redirect()->intended('/dashboard');
         }
-        $this->fill([
-            'email' => 'admin@volt.com',
-            'password' => 'secret',
-        ]);
     }
 
     public function login(){
