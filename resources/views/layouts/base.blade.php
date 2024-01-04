@@ -56,7 +56,6 @@
 
     @livewireStyles
 
-    @livewireScripts
 
     <!-- Core -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
@@ -103,9 +102,9 @@
     <script src="/assets/js/volt.js"></script>
 
     @if(env('IS_DEMO'))
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141734189-6"></script>
-        <script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141734189-6"></script>
+    <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
@@ -121,21 +120,22 @@
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-THQTXJ7');</script>
         <!-- End Google Tag Manager -->
-    @endif
+        @endif
 
 
-</head>
+    </head>
 
-<body>
-    @if(env('IS_DEMO'))
+    <body>
+        @if(env('IS_DEMO'))
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THQTXJ7" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
-    @endif
+            <!-- End Google Tag Manager (noscript) -->
+            @endif
 
-    {{ $slot }}
+            {{ $slot }}
 
-</body>
+        </body>
+        @livewireScripts
 
 </html>
