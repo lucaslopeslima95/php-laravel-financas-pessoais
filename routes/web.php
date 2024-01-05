@@ -1,30 +1,30 @@
 <?php
 
-use App\Http\Livewire\BootstrapTables;
-use App\Http\Livewire\Components\Buttons;
-use App\Http\Livewire\Components\Forms;
-use App\Http\Livewire\Components\Modals;
-use App\Http\Livewire\Components\Notifications;
-use App\Http\Livewire\Components\Typography;
-use App\Http\Livewire\Dashboard;
-use App\Http\Livewire\Err404;
-use App\Http\Livewire\Err500;
-use App\Http\Livewire\ResetPassword;
-use App\Http\Livewire\ForgotPassword;
-use App\Http\Livewire\Lock;
-use App\Http\Livewire\Auth\Login;
-use App\Http\Livewire\Profile;
-use App\Http\Livewire\Auth\Register;
-use App\Http\Livewire\ForgotPasswordExample;
-use App\Http\Livewire\Index;
-use App\Http\Livewire\LoginExample;
-use App\Http\Livewire\ProfileExample;
-use App\Http\Livewire\RegisterExample;
-use App\Http\Livewire\Transactions;
+use App\Livewire\BootstrapTables;
+use App\Livewire\Components\Buttons;
+use App\Livewire\Components\Forms;
+use App\Livewire\Components\Modals;
+use App\Livewire\Components\Notifications;
+use App\Livewire\Components\Typography;
+use App\Livewire\Dashboard;
+use App\Livewire\Err404;
+use App\Livewire\Err500;
+use App\Livewire\ResetPassword;
+use App\Livewire\ForgotPassword;
+use App\Livewire\Lock;
+use App\Livewire\Auth\Login;
+use App\Livewire\Profile;
+use App\Livewire\Auth\Register;
+use App\Livewire\ForgotPasswordExample;
+use App\Livewire\Index;
+use App\Livewire\LoginExample;
+use App\Livewire\ProfileExample;
+use App\Livewire\RegisterExample;
+use App\Livewire\Transactions;
 use Illuminate\Support\Facades\Route;
-use App\Http\Livewire\ResetPasswordExample;
-use App\Http\Livewire\UpgradeToPro;
-use App\Http\Livewire\Users;
+use App\Livewire\ResetPasswordExample;
+use App\Livewire\UpgradeToPro;
+use App\Livewire\Users;
 
 /*
 |--------------------------------------------------------------------------

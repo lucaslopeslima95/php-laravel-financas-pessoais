@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Livewire\Auth;
+namespace App\Livewire\Auth;
 
 use App\Models\User;
 use Livewire\Component;
@@ -20,7 +20,6 @@ class Login extends Component
     //This mounts the default credentials for the admin. Remove this section if you want to make it public.
     public function login(){
 
-        dd('4444');
         $credentials = $this->validate();
         if (auth()->attempt(['email' => $this->email, 'password' => $this->password], $this->remember_me)) {
             $user = User::where(['email' => $this->email])->first();

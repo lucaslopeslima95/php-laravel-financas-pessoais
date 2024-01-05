@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Http\Livewire;
+namespace App\Livewire;
 
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
 use Livewire\Component;
 
 class ResetPassword extends Component
-{   
+{
     public $email = '';
     public $password = '';
     public $passwordConfirmation = '';
@@ -46,7 +46,7 @@ class ResetPassword extends Component
             $this->wrongEmail = true;
         }
     }
-    
+
     public function render()
     {
         return view('livewire.reset-password');
