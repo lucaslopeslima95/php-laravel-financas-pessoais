@@ -1,6 +1,6 @@
 <div>
 
-    <title>Volt Laravel Dashboard</title>
+    <title>Dashboard</title>
 
     <div class="py-4">
         <div class="dropdown">

@@ -1,3 +1,4 @@
+<div>
 <title>Volt Laravel Dashboard - Typography</title>
 <div class="py-4">
     <nav aria-label="breadcrumb" class="d-none d-md-inline-block">
@@ -28,8 +29,8 @@
 <div class="row">
     <div class="col-12 mb-4">
         <div class="card border-0 shadow components-section">
-            <div class="card-body">     
-                <div class="row mb-4 mb-lg-5">                                           
+            <div class="card-body">
+                <div class="row mb-4 mb-lg-5">
                     <div class="col-12 col-md-6">
                         <h2 class="h5 mb-3">Headings</h2>
                         <h1>h1. Themesberg heading</h1>
@@ -192,4 +193,5 @@
             </div>
         </div>
     </div>
+</div>
 </div>
