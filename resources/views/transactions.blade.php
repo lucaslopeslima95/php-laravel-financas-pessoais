@@ -1,3 +1,4 @@
+<div>
 <title>Volt Laravel Dashboard - Transactions</title>
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center py-4">
     <div class="d-block mb-4 mb-md-0">
@@ -59,7 +60,7 @@
         <thead>
             <tr>
                 <th class="border-gray-200">#</th>
-                <th class="border-gray-200">Bill For</th>						
+                <th class="border-gray-200">Bill For</th>
                 <th class="border-gray-200">Issue Date</th>
                 <th class="border-gray-200">Due Date</th>
                 <th class="border-gray-200">Total</th>
@@ -78,7 +79,7 @@
                 <td>
                     <span class="fw-normal">Platinum Subscription Plan</span>
                 </td>
-                <td><span class="fw-normal">1 May 2020</span></td>                        
+                <td><span class="fw-normal">1 May 2020</span></td>
                 <td><span class="fw-normal">1 Jun 2020</span></td>
                 <td><span class="fw-bold">$799,00</span></td>
                 <td><span class="fw-bold text-warning">Due</span></td>
@@ -108,7 +109,7 @@
                 <td>
                     <span class="fw-normal">Platinum Subscription Plan</span>
                 </td>
-                <td><span class="fw-normal">1 Apr 2020</span></td>                        
+                <td><span class="fw-normal">1 Apr 2020</span></td>
                 <td><span class="fw-normal">1 May 2020</span></td>
                 <td><span class="fw-bold">$799,00</span></td>
                 <td><span class="fw-bold text-success">Paid</span></td>
@@ -127,7 +128,7 @@
                         </div>
                     </div>
                 </td>
-            </tr> 
+            </tr>
             <!-- Item -->
             <tr>
                 <td>
@@ -138,7 +139,7 @@
                 <td>
                     <span class="fw-normal">Platinum Subscription Plan</span>
                 </td>
-                <td><span class="fw-normal">1 Mar 2020</span></td>                        
+                <td><span class="fw-normal">1 Mar 2020</span></td>
                 <td><span class="fw-normal">1 Apr 2020</span></td>
                 <td><span class="fw-bold">$799,00</span></td>
                 <td><span class="fw-bold text-success">Paid</span></td>
@@ -157,7 +158,7 @@
                         </div>
                     </div>
                 </td>
-            </tr> 
+            </tr>
             <!-- Item -->
             <tr>
                 <td>
@@ -168,7 +169,7 @@
                 <td>
                     <span class="fw-normal">Platinum Subscription Plan</span>
                 </td>
-                <td><span class="fw-normal">1 Feb 2020</span></td>                        
+                <td><span class="fw-normal">1 Feb 2020</span></td>
                 <td><span class="fw-normal">1 Mar 2020</span></td>
                 <td><span class="fw-bold">$799,00</span></td>
                 <td><span class="fw-bold text-success">Paid</span></td>
@@ -187,7 +188,7 @@
                         </div>
                     </div>
                 </td>
-            </tr> 
+            </tr>
             <!-- Item -->
             <tr>
                 <td>
@@ -198,7 +199,7 @@
                 <td>
                     <span class="fw-normal">Platinum Subscription Plan</span>
                 </td>
-                <td><span class="fw-normal">1 Jan 2020</span></td>                        
+                <td><span class="fw-normal">1 Jan 2020</span></td>
                 <td><span class="fw-normal">1 Feb 2020</span></td>
                 <td><span class="fw-bold">$799,00</span></td>
                 <td><span class="fw-bold text-success">Paid</span></td>
@@ -217,7 +218,7 @@
                         </div>
                     </div>
                 </td>
-            </tr> 
+            </tr>
             <!-- Item -->
             <tr>
                 <td>
@@ -228,7 +229,7 @@
                 <td>
                     <span class="fw-normal">Platinum Subscription Plan</span>
                 </td>
-                <td><span class="fw-normal">1 Dec 2019</span></td>                        
+                <td><span class="fw-normal">1 Dec 2019</span></td>
                 <td><span class="fw-normal">1 Jan 2020</span></td>
                 <td><span class="fw-bold">$799,00</span></td>
                 <td><span class="fw-bold text-success">Paid</span></td>
@@ -247,7 +248,7 @@
                         </div>
                     </div>
                 </td>
-            </tr> 
+            </tr>
             <!-- Item -->
             <!-- Item -->
             <tr>
@@ -259,7 +260,7 @@
                 <td>
                     <span class="fw-normal">Platinum Subscription Plan</span>
                 </td>
-                <td><span class="fw-normal">1 Nov 2019</span></td>                        
+                <td><span class="fw-normal">1 Nov 2019</span></td>
                 <td><span class="fw-normal">1 Dec 2019</span></td>
                 <td><span class="fw-bold">$799,00</span></td>
                 <td><span class="fw-bold text-success">Paid</span></td>
@@ -278,7 +279,7 @@
                         </div>
                     </div>
                 </td>
-            </tr> 
+            </tr>
             <!-- Item -->
             <tr>
                 <td>
@@ -289,7 +290,7 @@
                 <td>
                     <span class="fw-normal">Gold Subscription Plan</span>
                 </td>
-                <td><span class="fw-normal">1 Oct 2019</span></td>                        
+                <td><span class="fw-normal">1 Oct 2019</span></td>
                 <td><span class="fw-normal">1 Nov 2019</span></td>
                 <td><span class="fw-bold">$533,42</span></td>
                 <td><span class="fw-bold text-danger">Cancelled</span></td>
@@ -319,7 +320,7 @@
                 <td>
                     <span class="fw-normal">Gold Subscription Plan</span>
                 </td>
-                <td><span class="fw-normal">1 Sep 2019</span></td>                        
+                <td><span class="fw-normal">1 Sep 2019</span></td>
                 <td><span class="fw-normal">1 Oct 2019</span></td>
                 <td><span class="fw-bold">$533,42</span></td>
                 <td><span class="fw-bold text-success">Paid</span></td>
@@ -338,7 +339,7 @@
                         </div>
                     </div>
                 </td>
-            </tr>    
+            </tr>
             <!-- Item -->
             <tr>
                 <td>
@@ -349,7 +350,7 @@
                 <td>
                     <span class="fw-normal">Flexible Subscription Plan</span>
                 </td>
-                <td><span class="fw-normal">1 Aug 2019</span></td>                        
+                <td><span class="fw-normal">1 Aug 2019</span></td>
                 <td><span class="fw-normal">1 Sep 2019</span></td>
                 <td><span class="fw-bold">$233,42</span></td>
                 <td><span class="fw-bold text-success">Paid</span></td>
@@ -368,7 +369,7 @@
                         </div>
                     </div>
                 </td>
-            </tr>                                
+            </tr>
         </tbody>
     </table>
     <div class="card-footer px-3 border-0 d-flex flex-column flex-lg-row align-items-center justify-content-between">
@@ -399,4 +400,5 @@
         </nav>
         <div class="fw-normal small mt-4 mt-lg-0">Showing <b>5</b> out of <b>25</b> entries</div>
     </div>
+</div>
 </div>

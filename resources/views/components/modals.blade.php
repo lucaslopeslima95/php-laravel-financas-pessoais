@@ -1,3 +1,4 @@
+<div>
 <title>Volt Laravel Dashboard - Modals</title>
 <div class="py-4">
     <nav aria-label="breadcrumb" class="d-none d-md-inline-block">
@@ -25,7 +26,7 @@
 <div class="row">
     <div class="col-12 mb-4">
         <div class="card border-0 shadow">
-            <div class="card-body">     
+            <div class="card-body">
                 <div class="row d-block mt-4">
                     <div class="col-lg-4">
                         <!-- Button Modal -->
@@ -103,7 +104,7 @@
                                                             <svg class="icon icon-xs text-gray-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
                                                         </span>
                                                         <input type="email" class="form-control" placeholder="example@company.com" id="email" autofocus required>
-                                                    </div>  
+                                                    </div>
                                                 </div>
                                                 <!-- End of Form -->
                                                 <div class="form-group">
@@ -115,7 +116,7 @@
                                                                 <svg class="icon icon-xs text-gray-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"></path></svg>
                                                             </span>
                                                             <input type="password" placeholder="Password" class="form-control" id="password" required>
-                                                        </div>  
+                                                        </div>
                                                     </div>
                                                     <!-- End of Form -->
                                                     <div class="d-flex justify-content-between align-items-top mb-4">
@@ -181,7 +182,7 @@
                                                             <svg class="icon icon-xs text-gray-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
                                                         </span>
                                                         <input type="email" class="form-control" placeholder="example@company.com" id="email" autofocus required>
-                                                    </div>  
+                                                    </div>
                                                 </div>
                                                 <!-- End of Form -->
                                                 <div class="form-group">
@@ -193,7 +194,7 @@
                                                                 <svg class="icon icon-xs text-gray-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"></path></svg>
                                                             </span>
                                                             <input type="password" placeholder="Password" class="form-control" id="password" required>
-                                                        </div>  
+                                                        </div>
                                                     </div>
                                                     <!-- End of Form -->
                                                     <!-- Form -->
@@ -204,7 +205,7 @@
                                                                 <svg class="icon icon-xs text-gray-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"></path></svg>
                                                             </span>
                                                             <input type="password" placeholder="Confirm Password" class="form-control" id="confirm_password" required>
-                                                        </div>  
+                                                        </div>
                                                     </div>
                                                     <!-- End of Form -->
                                                     <div class="mb-4">
@@ -236,7 +237,7 @@
                                             </div>
                                             <div class="d-flex justify-content-center align-items-center mt-4">
                                                 <span class="fw-normal">
-                                                    Already have an account? 
+                                                    Already have an account?
                                                     <a href="./sign-in.html" class="fw-bold">Login here</a>
                                                 </span>
                                             </div>
@@ -318,4 +319,5 @@
             </div>
         </div>
     </div>
+</div>
 </div>
