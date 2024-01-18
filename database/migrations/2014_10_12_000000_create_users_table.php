@@ -18,6 +18,8 @@ class CreateUsersTable extends Migration
             $table->string('name')->nullable();
             $table->string('user_name')->nullable();
             $table->string('email')->unique();
+            $table->string('github_token')->unique();
+            $table->string('github_refresh_token')->unique();
             $table->string('password');
             $table->rememberToken()->unique();
             $table->timestamps();
